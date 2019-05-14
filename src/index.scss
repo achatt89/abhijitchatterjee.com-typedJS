@@ -1,0 +1,54 @@
+$background-color: #121111;
+$text-color: white;
+$console-font: monospace;
+$font-size: 1.5vmin;
+
+body {
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+}
+
+p {
+  display: inline;
+}
+
+a,
+a:hover {
+  color: $text-color;
+  text-decoration: none;
+}
+
+.info {
+  font-family: $console-font;
+  font-size: $font-size;
+  color: $text-color;
+  display: block;
+  border: none;
+  padding: 0;
+  height: 30px;
+}
+.console {
+  font-family: $console-font;
+  font-size: $font-size;
+  display: block;
+  margin-left: 0;
+  color: $text-color;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.help {
+  font-weight: bold;
+}
+
+#terminal {
+  font-family: $console-font;
+  font-size: $font-size;
+  color: $text-color;
+  background: $background-color;
+  border: none;
+  padding: 0px;
+  outline: none;
+  word-wrap: break-word;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "abhijitchatterjee",
+  "version": "0.0.1",
+  "description": "Abhijit Chatterjee - Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --env development",
+    "start": "webpack-dev-server --config webpack.config.js --env development --open"
+  },
+  "author": "Abhijit Chatterjee",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.1.0",
+    "typed.js": "^2.0.10",
+    "wc-typed-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "clean-webpack-plugin": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
