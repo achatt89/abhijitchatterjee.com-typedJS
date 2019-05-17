@@ -27,7 +27,8 @@ a:hover {
   padding: 0;
   height: 30px;
 }
-.console {
+
+.console, .consoleoutput {
   font-family: $console-font;
   font-size: $font-size;
   display: block;
@@ -38,7 +39,7 @@ a:hover {
   outline: none;
 }
 
-.help {
+.commandlist {
   font-weight: bold;
 }
 

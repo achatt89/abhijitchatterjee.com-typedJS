@@ -10,6 +10,7 @@
   "author": "Abhijit Chatterjee",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.4.1",
     "lit-element": "^2.1.0",
     "typed.js": "^2.0.10",
     "wc-typed-js": "^1.0.1"
